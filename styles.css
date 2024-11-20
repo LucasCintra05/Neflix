@@ -1,0 +1,92 @@
+/* Reset básico */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #141414;
+  }
+  
+  .logo img {
+    width: 120px;
+  }
+  
+  .nav .signin-btn {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+  .main-content {
+    padding: 20px 50px;
+  }
+  
+  .movies-section {
+    margin-bottom: 50px;
+  }
+  
+  .movies-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .movies-row {
+    display: flex;
+    position: relative;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px 0;
+  }
+  
+  .movies-row::-webkit-scrollbar {
+    height: 10px;
+  }
+  
+  .movies-row::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  .movies-row img {
+    width: 150px;
+    height: auto;
+    border-radius: 4px;
+    transition: transform 0.2s;
+  }
+  
+  .movies-row img:hover {
+    transform: scale(1.1);
+    opacity: 0.1;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+  }
+  .info_movie{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .div_movie{
+    display: flex;
+    gap: 20px;
+  }
